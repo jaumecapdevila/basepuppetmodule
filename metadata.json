@@ -1,0 +1,14 @@
+{
+  "name": "jaume-basepuppetmodule",
+  "version": "0.1.0",
+  "author": "jaume",
+  "summary": "Base Puppet Module",
+  "license": "Apache-2.0",
+  "source": "https://github.com/jaumecapdevila/basepuppetmodule.git",
+  "project_page": "https://github.com/jaumecapdevila/basepuppetmodule",
+  "issues_url": "https://github.com/jaumecapdevila/basepuppetmodule/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
