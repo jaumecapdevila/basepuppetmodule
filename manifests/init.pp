@@ -4,6 +4,6 @@ class basepuppetmodule {
     class {'::basepuppetmodule::php':
         require => Class['::basepuppetmodule::apache']
     }
-    class {'::basepuppetmodule::mysql': }
     class {'::basepuppetmodule::firewall': }
+    class {'::basepuppetmodule::timezone': }
 }
